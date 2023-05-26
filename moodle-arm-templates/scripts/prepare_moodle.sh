@@ -199,7 +199,7 @@ sudo apt-get -y install git-all
 #get the bitnami Docker image
 sudo mkdir -p /moodle-image
 sudo chmod 777 /moodle-image
-git clone https://github.com/neerajajaja/moodle-to-azure-aks.git /moodle-image/      #get from modified repo with args
+git clone https://github.com/vjcruz007/azure-moodle-aks.git /moodle-image/      #get from modified repo with args
 
 #get Docker tools
 #get Docker repository

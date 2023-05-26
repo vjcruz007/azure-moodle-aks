@@ -1,5 +1,5 @@
 set -e
-INFRA_ARM_TEMPLATE="https://raw.githubusercontent.com/neerajajaja/moodle-to-azure-aks/master/moodle-arm-templates/azuredeploy.json"
+INFRA_ARM_TEMPLATE="https://github.com/vjcruz007/azure-moodle-aks/tree/master/moodle-arm-templates/azuredeploy.json"
 WORKING_DIRECTORY="$(cd "$(dirname "$0")" && pwd)"
 . "$WORKING_DIRECTORY/helper-functions.sh"    #import helper functions
 

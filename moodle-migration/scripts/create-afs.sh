@@ -1,5 +1,5 @@
 set -e
-ARM_TEMPLATE="https://raw.githubusercontent.com/neerajajaja/moodle-to-azure-aks/master/moodle-arm-templates/storagedeploy.json"
+ARM_TEMPLATE="https://github.com/vjcruz007/azure-moodle-aks/tree/master/moodle-arm-templates/storagedeploy.json"
 WORKING_DIRECTORY=$(dirname "$0")
 . "$WORKING_DIRECTORY/helper-functions.sh"    #import helper functions
 
